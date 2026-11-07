@@ -19,8 +19,6 @@ def definitie(interaction: dict) -> dict:
     )
     text = text.replace("&039;", "") # Dumnezeu cu mila!
 
-    text = re.sub(r"^([^,]+)", r"**\1**", text)
-
     return {
         "type": 4,
         "data": {"content": text},
