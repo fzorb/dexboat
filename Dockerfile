@@ -1,4 +1,4 @@
-FROM astral/uv:latest
+FROM astral/uv:0.13.7-trixie-slim
 
 WORKDIR /app
 COPY . .
